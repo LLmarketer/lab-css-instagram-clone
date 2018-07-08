@@ -7,19 +7,17 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  width: 100%;
 }
 
-.top-bg {
-	background-image: url('/images/bgtile.png');
-	background-size: 100% 100%;
-	background-repeat: repeat-x;
-}
 
 /* LEFT COLUMN CONTENT STARTS */
 
 .left-column {
 	float: left;
-right-col-copy	width: 75%;
+    width: 75%;
 	margin: 0px;
 	margin: 50px;
 }
@@ -59,16 +57,21 @@ top: 25px;
 }
 
 .copy-bg {
-	background-image: url('/images/frame.png');
-	background-size: 100% 100%;
+	background-image: url('../images/frame.png');
+	height: 600px;
+    background-repeat: no-repeat;
 }
 
 .right-col-copy {
 	clear: both;
+	position: relative;
+	bottom: 600px;
+	left: 40px;
+	top: -600px;
 }
 
 p {
-	width: 75%;
+	width: 400px;
 }
 
 .download-icons {
@@ -81,10 +84,29 @@ p {
 
 .footer {
 	clear: both;
+	position: relative;
+	top: -1000px;
 }
 
 .footer-menu {
 	list-style-type: none;
+	text-align: center;
+}
+
+.footer-menu > li {
+	text-indent: 5px;
+	display: inline-block;
+	font-size: 15px;
+	color: #1c5380;
+	font-weight: bold;
+
+}
+
+li.legal {
+	text-indent: 5px;
+	display: inline-block;
+	font-size: 15px;
+	color: grey;
 }
 
 /* FOOTER ENDS */
