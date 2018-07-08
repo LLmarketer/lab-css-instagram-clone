@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top-bg {
+	background-image: url('/images/bgtile.png');
+	background-size: 100% 100%;
+	background-repeat: repeat-x;
+}
+
+/* LEFT COLUMN CONTENT STARTS */
+
+.left-column {
+	float: left;
+right-col-copy	width: 75%;
+	margin: 0px;
+	margin: 50px;
+}
+
+
+/* LEFT COLUMN CONTENT ENDS */
+
+
+/* RIGHT COLUMN CONTENT STARTS */
+
+
+.right-column {
+	float: right;
+	width: 75%;
+	margin: 0px;
+	position: relative;
+	left: 150px;
+	bottom: 550px
+}
+
+.login {
+float: right;
+position: relative;
+width: 25%;
+right: 150px;
+top: 25px;
+}
+
+
+.ig-logo {
+	float: left;
+	padding-right: 20px;
+}
+
+.ig-login-home {
+	vertical-align: middle;
+}
+
+.copy-bg {
+	background-image: url('/images/frame.png');
+	background-size: 100% 100%;
+}
+
+.right-col-copy {
+	clear: both;
+}
+
+p {
+	width: 75%;
+}
+
+.download-icons {
+
+}
+
+/* RIGHT COLUMN CONTENT ENDS */
+
+/* FOOTER STARTS */
+
+.footer {
+	clear: both;
+}
+
+.footer-menu {
+	list-style-type: none;
+}
+
+/* FOOTER ENDS */
